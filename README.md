@@ -27,7 +27,7 @@ Arbre d'Expression : Création des classes Noeud (type, valeur, fils gauche, fil
 
 
 
-# Une expression suffixée abc+∗ est très facile à évaluer pour un programme informatique. On utilise pour cela une pile contenant les opérandes. L'expression est parcourue de la gauche vers la droite. Lorsqu'un opérande est rencontré, elle est placée au sommet de la pile. Lorsqu'un opérateur est rencontré, les deux derniers opérandes sont enlevés de la pile, l'opération leur est appliquée, et le résultat est placé au sommet de la pile. Lorsqu'une fonction est rencontrée, le dernier opérande est retiré de la pile, la fonction lui est appliquée, et le résultat est placé au sommet de la pile.
+Une expression suffixée abc+∗ est très facile à évaluer pour un programme informatique. On utilise pour cela une pile contenant les opérandes. L'expression est parcourue de la gauche vers la droite. Lorsqu'un opérande est rencontré, elle est placée au sommet de la pile. Lorsqu'un opérateur est rencontré, les deux derniers opérandes sont enlevés de la pile, l'opération leur est appliquée, et le résultat est placé au sommet de la pile. Lorsqu'une fonction est rencontrée, le dernier opérande est retiré de la pile, la fonction lui est appliquée, et le résultat est placé au sommet de la pile.
 
 
 # Question 1: Montrer comment, d’après le paragraphe précédent, on évalue grâce à une pile l’expression abc+*.
