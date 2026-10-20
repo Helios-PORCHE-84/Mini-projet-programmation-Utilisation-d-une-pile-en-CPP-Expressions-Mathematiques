@@ -24,8 +24,9 @@ Convertisseur Infixé →Suffixé : Utilisation d'une pile pour les opérateurs 
 
 Arbre d'Expression : Création des classes Noeud (type, valeur, fils gauche, fils droit) et Arbre. Construction de l'arbre via une pile, puis implémentation de méthodes récursives pour l'évaluation et l'affichage infixe (avec ajout dynamique des parenthèses).
 
-
-
+-
+-
+-
 
 Une expression suffixée abc+∗ est très facile à évaluer pour un programme informatique. On utilise pour cela une pile contenant les opérandes. L'expression est parcourue de la gauche vers la droite. Lorsqu'un opérande est rencontré, elle est placée au sommet de la pile. Lorsqu'un opérateur est rencontré, les deux derniers opérandes sont enlevés de la pile, l'opération leur est appliquée, et le résultat est placé au sommet de la pile. Lorsqu'une fonction est rencontrée, le dernier opérande est retiré de la pile, la fonction lui est appliquée, et le résultat est placé au sommet de la pile.
 
