@@ -1,4 +1,4 @@
-# Mini-projet programmation Utilisation d'une pile en C++ (Expressions Mathématiques)
+# Mini-projet programmation Utilisation d'une pile en C++ (Expressions Mathématiques).
 
 # Contexte & Objectif : 
 
